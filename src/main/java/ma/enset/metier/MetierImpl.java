@@ -2,13 +2,13 @@ package ma.enset.metier;
 
 import ma.enset.dao.IDao;
 
-public class ImetierImpl implements IMetier{
+public class MetierImpl implements IMetier{
     private IDao dao;
 
-    public ImetierImpl() {
+    public MetierImpl() {
     }
 
-    public ImetierImpl(IDao dao) {
+    public MetierImpl(IDao dao) {
         this.dao = dao;
     }
 

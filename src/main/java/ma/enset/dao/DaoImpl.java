@@ -1,6 +1,6 @@
 package ma.enset.dao;
 
-public class IDaoImpl implements IDao {
+public class DaoImpl implements IDao {
 
     @Override
     public double getdata() {
